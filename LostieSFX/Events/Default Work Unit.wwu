@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="kek_Event" ID="{5813C817-DE81-4D4C-86A2-3E5003E4C628}">
+				<Event Name="kekkkk_Event" ID="{5813C817-DE81-4D4C-86A2-3E5003E4C628}">
 					<ChildrenList>
 						<Action Name="" ID="{21E78032-6145-42B8-9D6C-DF7C2C39B6C4}" ShortID="215478155">
 							<ReferenceList>
