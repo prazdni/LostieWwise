@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="serum one shot" ID="{4AC49855-9A07-4F5C-8D4F-72E2ECC7D05C}" ShortID="396041510">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="serum one shot" ID="{B7F39EA6-EAFF-42AA-AAE4-CE5C3EFEAA89}">
+							<Language>SFX</Language>
+							<AudioFile>serum one shot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1023359970"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="serum one shot" ID="{B7F39EA6-EAFF-42AA-AAE4-CE5C3EFEAA89}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
