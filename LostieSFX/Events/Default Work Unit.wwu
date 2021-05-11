@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="kekkkk_Event" ID="{5813C817-DE81-4D4C-86A2-3E5003E4C628}">
+				<Event Name="AMB" ID="{67C504B0-686F-4622-894D-0115AFC378A4}">
 					<ChildrenList>
-						<Action Name="" ID="{21E78032-6145-42B8-9D6C-DF7C2C39B6C4}" ShortID="215478155">
+						<Action Name="" ID="{32123F30-EAD3-4111-8416-560A7E529056}" ShortID="3263928">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="serum one shot" ID="{4AC49855-9A07-4F5C-8D4F-72E2ECC7D05C}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+									<ObjectRef Name="AMB" ID="{A2444546-6B7A-4B4F-BDD1-59E590502D8D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
