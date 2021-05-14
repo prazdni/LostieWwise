@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B38BB4CF-A009-4705-82AB-D5616A4A7B94}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B38BB4CF-A009-4705-82AB-D5616A4A7B94}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B38BB4CF-A009-4705-82AB-D5616A4A7B94}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="main" ID="{6CAEB495-9105-4DF7-8BE0-C2C06B5D8ED3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="metal" ID="{71BD5DE2-591C-4D6B-A6C1-2418547DB150}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

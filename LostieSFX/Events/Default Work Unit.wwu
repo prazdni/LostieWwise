@@ -14,6 +14,93 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="footstep" ID="{ABA05616-3F81-44CC-8BA3-557A1DF36E7F}">
+					<ChildrenList>
+						<Action Name="" ID="{FCD9A6AF-685F-4008-B07F-049F46328024}" ShortID="338823713">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footsteps" ID="{94AB4593-D7E3-4517-ABD2-6039764A5482}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="jump" ID="{8FD42747-BD4B-4D80-95C8-67D0BCF56A69}">
+					<ChildrenList>
+						<Action Name="" ID="{C7877CA9-F118-4F6C-899F-4731F1B246E1}" ShortID="393454482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jumps" ID="{2C825D23-D938-48E3-8D6D-A898A3BA703E}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}">
+					<ChildrenList>
+						<Action Name="" ID="{CBAF4583-9316-4B5A-AB7C-9CF7D95BF4F1}" ShortID="143505390">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magnit on" ID="{29F6AEEA-5B85-4C62-9C31-9EA655005C78}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08D0C509-503E-4CC0-AE97-1728C99BB770}" ShortID="966916064">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}">
+					<ChildrenList>
+						<Action Name="" ID="{4D8C1774-E32A-490B-9DE8-167F4438A4A5}" ShortID="838091342">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FCA53A5B-C3C4-4E4C-A717-75DBBC774102}" ShortID="310685267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magnit off" ID="{F44F001D-8033-4A90-809D-ADEFE544BEE7}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="object_machine" ID="{26EEA454-5760-478C-8623-7F580AD2A1F6}">
+					<ChildrenList>
+						<Action Name="" ID="{E174E43A-2873-4B79-A534-65F14250CD41}" ShortID="802751606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="object1 loop" ID="{485A45C3-3077-4205-9375-30105D0AA8E0}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="metal_can" ID="{1D6FC76A-9D79-4F20-BC9D-5B8710ED0C96}">
+					<ChildrenList>
+						<Action Name="" ID="{DB8B8ADF-ADE2-4599-B3A1-4F4800348A64}" ShortID="722683538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="metal can1" ID="{0F932C52-B751-4502-BD5A-A5C591B6B712}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
