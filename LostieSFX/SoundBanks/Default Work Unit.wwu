@@ -5,7 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{E1EFCA1B-34D9-47D5-AC3F-5896717DE1BF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="kekkkk_Event" ID="{5813C817-DE81-4D4C-86A2-3E5003E4C628}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep" ID="{ABA05616-3F81-44CC-8BA3-557A1DF36E7F}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB" ID="{67C504B0-686F-4622-894D-0115AFC378A4}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="jump" ID="{8FD42747-BD4B-4D80-95C8-67D0BCF56A69}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="metal_can" ID="{1D6FC76A-9D79-4F20-BC9D-5B8710ED0C96}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
