@@ -4,8 +4,8 @@
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Triggers\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Switches\Default Work Unit.wwu" DateLow="1621023000" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\States\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
-	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1621025531" DateHigh="0"/>
-	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\SoundBanks\Default Work Unit.wwu" DateLow="1621025882" DateHigh="0"/>
+	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1621399998" DateHigh="0"/>
+	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\SoundBanks\Default Work Unit.wwu" DateLow="1621399998" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Queries\Factory Queries.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Queries\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Presets\Factory Spatial Audio.wwu" DateLow="1617018986" DateHigh="0"/>
@@ -15,10 +15,10 @@
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Metadata\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1620770261" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\LostieSFX.wproj" DateLow="1617018986" DateHigh="0"/>
-	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\LostieSFX.George.wsettings" DateLow="1621025884" DateHigh="0"/>
+	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\LostieSFX.George.wsettings" DateLow="1621400356" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Game Parameters\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
-	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Events\Default Work Unit.wwu" DateLow="1621025882" DateHigh="0"/>
+	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Events\Default Work Unit.wwu" DateLow="1621400356" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Effects\Factory Effects.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Effects\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
@@ -27,5 +27,5 @@
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Control Surface Sessions\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Audio Devices\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
 	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Attenuations\Default Work Unit.wwu" DateLow="1617018986" DateHigh="0"/>
-	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621025882" DateHigh="0"/>
+	<ValidationCacheItem File="A:\GamesWork\Lostie\LostieWwise\LostieSFX\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621400356" DateHigh="0"/>
 </ValidationCache>

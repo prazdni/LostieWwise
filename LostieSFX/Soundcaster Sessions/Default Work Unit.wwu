@@ -13,11 +13,19 @@
 							<ObjectRef Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="movement_box_start" ID="{CF6602B3-CEF5-47CC-9B75-371F210B33AF}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="movement_box_end" ID="{DDA92D50-E8BB-4410-91E4-F2C8B4AC7683}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="metal" ID="{71BD5DE2-591C-4D6B-A6C1-2418547DB150}"/>
+						<CurrentSwitchRef Name="gravel" ID="{352FAFD2-0A33-40F5-A4D5-3BE3729FE035}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
