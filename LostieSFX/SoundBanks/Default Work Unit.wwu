@@ -5,11 +5,22 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{E1EFCA1B-34D9-47D5-AC3F-5896717DE1BF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="lamp_off" ID="{37835908-66D2-426C-A592-6708B9762227}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh3down" ID="{1B713FC9-E2BC-43FE-8DA7-B1133628EC77}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="movement_box_end" ID="{DDA92D50-E8BB-4410-91E4-F2C8B4AC7683}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="footstep" ID="{ABA05616-3F81-44CC-8BA3-557A1DF36E7F}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lamp_regulator" ID="{B259B280-58DC-4594-8680-734225222F50}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AMB" ID="{67C504B0-686F-4622-894D-0115AFC378A4}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="movement_box_start" ID="{CF6602B3-CEF5-47CC-9B75-371F210B33AF}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh2up" ID="{AE88E1D7-F208-47D4-A637-8C369AB36B12}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh1down" ID="{DDE82154-D61A-48A7-93D4-FE8543F3D178}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh2down" ID="{4CD9B7F2-1F22-4911-9DF5-96F5C9C067AF}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh3up" ID="{2F350695-425D-4AB7-856F-446108DB688B}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="porsh1up" ID="{ED6E4AE1-5451-4D59-91EA-C04A9EF3A1DD}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="jump" ID="{8FD42747-BD4B-4D80-95C8-67D0BCF56A69}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lamp_on" ID="{E4CEC9FF-331B-4DA6-A68D-1580C8BCC996}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="metal_can" ID="{1D6FC76A-9D79-4F20-BC9D-5B8710ED0C96}" WorkUnitID="{CE11FC06-E3B9-4F64-9403-569E03F8C495}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

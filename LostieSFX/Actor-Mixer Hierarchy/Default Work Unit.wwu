@@ -1677,6 +1677,109 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
+						<ActorMixer Name="lamp" ID="{E016BB34-B030-44E8-870F-19B8CEE170E7}" ShortID="851047299">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="lamp off" ID="{825C8696-E422-4503-AAEF-A6452A8276DB}" ShortID="713341125">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lamp off" ID="{D45C62C6-917E-4081-AC4D-782062F29C88}">
+											<Language>SFX</Language>
+											<AudioFile>lamp off.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="611279576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="lamp off" ID="{D45C62C6-917E-4081-AC4D-782062F29C88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="lamp on" ID="{6A2308E8-BF98-4A2C-880C-C1FF50FF722F}" ShortID="108489538">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lamp on" ID="{D3121480-F6C0-4031-9932-2B3F75373172}">
+											<Language>SFX</Language>
+											<AudioFile>lamp on.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753176545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="lamp on" ID="{D3121480-F6C0-4031-9932-2B3F75373172}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="lamp regulator" ID="{FD7F3C84-526B-44DD-8D23-79FCCDA06E13}" ShortID="593098175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="lamp regulator" ID="{AFBB3776-66A4-4AEF-9A1F-A0A7C4EEF1A4}">
+											<Language>SFX</Language>
+											<AudioFile>lamp regulator.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="253799617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="lamp regulator" ID="{AFBB3776-66A4-4AEF-9A1F-A0A7C4EEF1A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="objects" ID="{54D9D8E1-E50A-46FD-816A-80A5793360CD}" ShortID="87655273">
@@ -1815,6 +1918,665 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="movement_box_loop" ID="{95C10CDB-ADF8-4F39-9E60-29CE7F405532}" ShortID="406474414">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="movement box loop" ID="{BE1A4A6F-B211-4B5B-BE05-304B9FA30382}" ShortID="708349290">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{F180755A-FF1F-475F-89CD-2660947073C2}" ShortID="819604237">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1F27B2B0-7093-45B2-A914-91AB2C3C7EFA}" ShortID="133436700">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.78"/>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{180499C2-AB95-4B72-AD6B-30E6204F366C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>50</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{497ACC4F-FD0F-41A7-A045-49BDD41666BC}" ShortID="122855941">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{449E5E68-6A58-4D85-A0FA-C6071C95977E}" ShortID="814059948">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																					<RTPCList>
+																						<RTPC Name="" ID="{2D0A58C6-4D3E-42B4-93DE-611F83C4EC5D}" ShortID="633806480">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{F687A497-DA88-4357-B41F-A61AE086AFEE}" ShortID="598401827"/>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{3E070F75-E351-46C7-BC71-22152B7A0D19}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="5"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0.39337</YPos>
+																										<Flags>21</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1</XPos>
+																										<YPos>0.89794</YPos>
+																										<Flags>53</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{926D8809-9055-43F8-BB41-47EE27C92029}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.1442</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="movement box loop" ID="{520D47F8-CFC6-4F38-9E31-2630F3165B33}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.00667015746077"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>movement box loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="425574865"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="movement box loop" ID="{520D47F8-CFC6-4F38-9E31-2630F3165B33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="movement box loop_01" ID="{A9A33F42-0934-4367-A6F3-5B749A815B6E}" ShortID="626691779">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{293297BD-BBB8-48D6-8C0B-F3F5DF4E6CAC}" ShortID="188974020">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1D0D113F-8164-46F4-9C06-E82976DFDDD4}" ShortID="1016822772">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.78"/>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CEA86F68-2147-4440-B1CC-FF29197564E5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>50</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6D21F537-AB43-4FE5-B3C3-3926067E90B4}" ShortID="22023985">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{06377C3C-2D98-47D5-AEC1-FE90180BFBE6}" ShortID="208061986">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																					<RTPCList>
+																						<RTPC Name="" ID="{0B00B1E3-5FD3-4603-8500-DBEBDC04AA38}" ShortID="743874098">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{2A06FC9B-1A54-497D-A3F4-8BED9955E337}" ShortID="783221461"/>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{E60F5502-FFCC-45A5-9FCF-6A664DC6BF1A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="5"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0.39337</YPos>
+																										<Flags>21</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1</XPos>
+																										<YPos>0.89794</YPos>
+																										<Flags>53</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{04CDD291-70AE-482C-BEA5-E7A50DC1805E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.1442</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="movement box loop" ID="{8A6A7456-322D-4FB9-A97A-A159B8F7B38C}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.44998101700392"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.83209268779606"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>movement box loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599010928"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="movement box loop" ID="{8A6A7456-322D-4FB9-A97A-A159B8F7B38C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="movement box loop_02" ID="{E1B99973-489F-4C6E-9580-8CFA0FE7E75C}" ShortID="278805265">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{0EB3B3BD-671A-432B-A5D8-3D506CF21145}" ShortID="245225253">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{95B9EDE9-7563-479B-A880-39A9AC027724}" ShortID="391891424">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.78"/>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B7A4850F-25F3-4793-8C97-5108E1A1CE8E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>50</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{760C9F00-25F0-410D-9361-5DBCA4B17F17}" ShortID="342215431">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{636B0D59-18C7-4964-AF58-09B488F5B423}" ShortID="1050470976">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																					<RTPCList>
+																						<RTPC Name="" ID="{4FAC224B-0D5F-41B6-98A8-1A2A473673B1}" ShortID="693889483">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{9D2CE5D2-2652-49A6-B39D-891F553E8292}" ShortID="293598018"/>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{AD8332B8-70F9-41D1-AB16-BF2B607ACE8E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="5"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0.39337</YPos>
+																										<Flags>21</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1</XPos>
+																										<YPos>0.89794</YPos>
+																										<Flags>53</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2307079F-3B2F-4CE4-9E35-01D6381E2023}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.1442</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="movement box loop" ID="{150037AE-DA2F-4645-9CE3-EF1B55865499}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.87093146503725"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.58964587191959"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>movement box loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="634814830"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="movement box loop" ID="{150037AE-DA2F-4645-9CE3-EF1B55865499}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="movement box loop_03" ID="{C4DECD03-83B4-41CA-896B-470A3B908675}" ShortID="970210203">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{3D1DD54F-5665-436A-818D-665FA155B7A1}" ShortID="625076759">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{7608D62F-FEC5-4859-BEDB-908BC7E98333}" ShortID="448414801">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.78"/>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{6E8031DA-4502-4481-855D-7C8F5CE70540}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>50</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{EEF0AC32-54BF-4F32-8B4D-E8D6949C5CF0}" ShortID="97494731">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{83B520C3-94F9-415B-A2FD-A0E8EF5858DC}" ShortID="735552212">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																					<RTPCList>
+																						<RTPC Name="" ID="{3803FDA4-BE4A-409A-8136-5DF27C1D0D56}" ShortID="279499001">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{96C9AC83-384F-4549-8FF8-C677635090F2}" ShortID="616086443"/>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{E89050E2-1C5D-4399-8B2B-A524E9BDBF14}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="5"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0.39337</YPos>
+																										<Flags>21</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1</XPos>
+																										<YPos>0.89794</YPos>
+																										<Flags>53</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E12DA917-9FC7-4789-AB35-15A30E9445D0}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.1442</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="movement box loop" ID="{F290CF42-5651-41DA-847A-768D288393E2}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.86465536341763"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.06551940708429"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>movement box loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="37584819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="movement box loop" ID="{F290CF42-5651-41DA-847A-768D288393E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="movement box loop_04" ID="{C8FB0829-32DB-4C8C-9CA8-18A21755C046}" ShortID="458266078">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<RTPCList>
+														<RTPC Name="" ID="{EBD893E4-3087-46AD-87C2-C6778EBA24BF}" ShortID="257361363">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{A008DD51-37F5-45CE-B6E1-3DC5C0572BCC}" ShortID="177389827">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.78"/>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{55DF8686-F106-4171-AC3A-60EFA2EF6039}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>50</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{DD2338C6-2873-466C-866F-A46D9059A115}" ShortID="460107467">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<Custom>
+																		<ModulatorLfo Name="Modulator LFO (Custom)" ID="{5FDD67B8-9901-4E52-8721-5B0F0212BAD5}" ShortID="156802749">
+																			<PropertyList>
+																				<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																					<RTPCList>
+																						<RTPC Name="" ID="{10F4F58F-6DF6-4222-B1C7-0D103E3DC3B2}" ShortID="943401793">
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorLfo Name="Modulator LFO (Custom)" ID="{C0CE1D21-C41D-4DE4-9340-1A5DD2FAF6EE}" ShortID="595860641"/>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																							<Curve Name="" ID="{B4B49C6F-0A87-4DA2-B0F9-A1910D1BC46A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="5"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0.39337</YPos>
+																										<Flags>21</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>1</XPos>
+																										<YPos>0.89794</YPos>
+																										<Flags>53</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</RTPC>
+																					</RTPCList>
+																				</Property>
+																			</PropertyList>
+																		</ModulatorLfo>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EF016A96-0E80-4537-848D-512CC84397EA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.1442</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="movement box loop" ID="{08C238D2-0F15-40ED-8745-6C36A3D08CE0}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.63829285743136"/>
+														<Property Name="TrimEnd" Type="Real64" Value="9.99451201006272"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>movement box loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127359523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="movement box loop" ID="{08C238D2-0F15-40ED-8745-6C36A3D08CE0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
@@ -1828,11 +2590,15 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="object1 loop" ID="{485A45C3-3077-4205-9375-30105D0AA8E0}" ShortID="783440527">
+								<ActorMixer Name="object1" ID="{A7B76B99-FCCA-499C-AB20-7C4ACB1ADA58}" ShortID="977844804">
 									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="att1" ID="{DA28F535-D5D3-49EC-9066-171D46FC1CC2}" WorkUnitID="{4E770082-3EDE-49E1-BA8F-53D271FD13E7}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
 										</Reference>
@@ -1841,19 +2607,147 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="object1 loop" ID="{29E8E30E-D7CD-49D9-B9F6-C148FC49F962}">
-											<Language>SFX</Language>
-											<AudioFile>object1 loop.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="283821374"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="porsh1up" ID="{5F5F0271-CB92-46E0-A908-10BB012D271F}" ShortID="185308339">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh1up" ID="{5ACB6095-93CC-4E90-939E-DABCDD15A9DB}">
+													<Language>SFX</Language>
+													<AudioFile>porsh1up.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="66322717"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh1up" ID="{5ACB6095-93CC-4E90-939E-DABCDD15A9DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh2up" ID="{41734E09-AD85-4E57-9F9C-6238F7485FF8}" ShortID="21543876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh2up" ID="{D0C727E2-8EFB-4BE3-A7DD-735073B2C899}">
+													<Language>SFX</Language>
+													<AudioFile>porsh2up.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="844192613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh2up" ID="{D0C727E2-8EFB-4BE3-A7DD-735073B2C899}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh2down" ID="{DC22DC16-060C-41D2-89B9-C243AA3D5EB2}" ShortID="140884033">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}">
+													<Language>SFX</Language>
+													<AudioFile>porsh2down.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="50278205"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh3up" ID="{EA5A97BD-F71B-4A07-905C-8537D8CB3C5A}" ShortID="254747750">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh3up" ID="{D2079BAB-06BE-4B6B-8165-727CB314BE62}">
+													<Language>SFX</Language>
+													<AudioFile>porsh3up.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="870206143"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh3up" ID="{D2079BAB-06BE-4B6B-8165-727CB314BE62}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh1down" ID="{D7CC9AC6-ECE9-45A5-81A9-B069ADF67161}" ShortID="801702930">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}">
+													<Language>SFX</Language>
+													<AudioFile>porsh1down.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072568451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh3down" ID="{46DBAC99-59CD-477B-91B5-70BD89FBA7ED}" ShortID="836693768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}">
+													<Language>SFX</Language>
+													<AudioFile>porsh3down.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344845112"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="object1 loop" ID="{29E8E30E-D7CD-49D9-B9F6-C148FC49F962}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</ActorMixer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>

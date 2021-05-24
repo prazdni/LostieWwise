@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\</ProjectRoot>
+		<SourceFilesRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2667037200">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2626267495">
+			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1117531639" Name="AMB" ObjectPath="\Events\Default Work Unit\AMB" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="107575969" Language="SFX">
+							<ShortName>amb_mid2.wav</ShortName>
+							<Path>SFX\amb_mid2_10C4C929.wem</Path>
+						</File>
+						<File Id="142086058" Language="SFX">
+							<ShortName>_amb_noise.wav</ShortName>
+							<Path>SFX\_amb_noise_0EA5A4CF.wem</Path>
+						</File>
+						<File Id="203140569" Language="SFX">
+							<ShortName>melody2.wav</ShortName>
+							<Path>SFX\melody2_18A6BA60.wem</Path>
+						</File>
+						<File Id="206289193" Language="SFX">
+							<ShortName>_amb_noise.wav</ShortName>
+							<Path>SFX\_amb_noise_382E2FD5.wem</Path>
+						</File>
+						<File Id="255627295" Language="SFX">
+							<ShortName>amb_solo1.wav</ShortName>
+							<Path>SFX\amb_solo1_10C4C929.wem</Path>
+						</File>
+						<File Id="353077756" Language="SFX">
+							<ShortName>amb_intensity2.wav</ShortName>
+							<Path>SFX\amb_intensity2_F6876E85.wem</Path>
+						</File>
+						<File Id="459565234" Language="SFX">
+							<ShortName>amb_solo2.wav</ShortName>
+							<Path>SFX\amb_solo2_10C4C929.wem</Path>
+						</File>
+						<File Id="596014821" Language="SFX">
+							<ShortName>_amb_noise.wav</ShortName>
+							<Path>SFX\_amb_noise_F3EE9637.wem</Path>
+						</File>
+						<File Id="608905666" Language="SFX">
+							<ShortName>amb_mid1.wav</ShortName>
+							<Path>SFX\amb_mid1_10C4C929.wem</Path>
+						</File>
+						<File Id="677692244" Language="SFX">
+							<ShortName>melody1.wav</ShortName>
+							<Path>SFX\melody1_10C4C929.wem</Path>
+						</File>
+						<File Id="680304996" Language="SFX">
+							<ShortName>melody4.wav</ShortName>
+							<Path>SFX\melody4_10C4C929.wem</Path>
+						</File>
+						<File Id="694612187" Language="SFX">
+							<ShortName>_amb_noise.wav</ShortName>
+							<Path>SFX\_amb_noise_242452B6.wem</Path>
+						</File>
+						<File Id="705098902" Language="SFX">
+							<ShortName>_amb_noise.wav</ShortName>
+							<Path>SFX\_amb_noise_9D3D1610.wem</Path>
+						</File>
+						<File Id="750514031" Language="SFX">
+							<ShortName>amb_intensity3.wav</ShortName>
+							<Path>SFX\amb_intensity3_06039F1E.wem</Path>
+						</File>
+						<File Id="997456459" Language="SFX">
+							<ShortName>amb_intensity1.wav</ShortName>
+							<Path>SFX\amb_intensity1_B56745C6.wem</Path>
+						</File>
+						<File Id="1012891873" Language="SFX">
+							<ShortName>melody3.wav</ShortName>
+							<Path>SFX\melody3_10C4C929.wem</Path>
+						</File>
+						<File Id="1063923055" Language="SFX">
+							<ShortName>amb_solo3.wav</ShortName>
+							<Path>SFX\amb_solo3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1866025847" Name="footstep" ObjectPath="\Events\Default Work Unit\footstep" DurationType="OneShot" DurationMin="0.317992" DurationMax="0.667099">
+					<IncludedMemoryFiles>
+						<File Id="2432733" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_14899C94.wem</Path>
+						</File>
+						<File Id="162933036" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_D6CB1261.wem</Path>
+						</File>
+						<File Id="308848133" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_4981F7FA.wem</Path>
+						</File>
+						<File Id="402224525" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_CE21C004.wem</Path>
+						</File>
+						<File Id="514120136" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_C485D7FA.wem</Path>
+						</File>
+						<File Id="518025997" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_4B796190.wem</Path>
+						</File>
+						<File Id="525016094" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_39A9CA00.wem</Path>
+						</File>
+						<File Id="558581364" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_F04CCDC1.wem</Path>
+						</File>
+						<File Id="558815861" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_F2B43F78.wem</Path>
+						</File>
+						<File Id="561036586" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_E74F1922.wem</Path>
+						</File>
+						<File Id="588744884" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_3F49BC4D.wem</Path>
+						</File>
+						<File Id="755079647" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_59400C30.wem</Path>
+						</File>
+						<File Id="992048043" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_CC437609.wem</Path>
+						</File>
+						<File Id="1033875272" Language="SFX">
+							<ShortName>footsteps gravel.wav</ShortName>
+							<Path>SFX\footsteps gravel_E8CF20A6.wem</Path>
+						</File>
+						<File Id="1041257074" Language="SFX">
+							<ShortName>footsteps metal.wav</ShortName>
+							<Path>SFX\footsteps metal_D1889335.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{352FAFD2-0A33-40F5-A4D5-3BE3729FE035}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{71BD5DE2-591C-4D6B-A6C1-2418547DB150}">
+							<Media>
+								<File Id="2432733"/>
+								<File Id="308848133"/>
+								<File Id="514120136"/>
+								<File Id="518025997"/>
+								<File Id="558815861"/>
+								<File Id="1041257074"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{352FAFD2-0A33-40F5-A4D5-3BE3729FE035}">
+							<Media>
+								<File Id="162933036"/>
+								<File Id="402224525"/>
+								<File Id="525016094"/>
+								<File Id="558581364"/>
+								<File Id="561036586"/>
+								<File Id="588744884"/>
+								<File Id="755079647"/>
+								<File Id="992048043"/>
+								<File Id="1033875272"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3833651337" Name="jump" ObjectPath="\Events\Default Work Unit\jump" DurationType="OneShot" DurationMin="0.632494" DurationMax="1.389477">
+					<IncludedMemoryFiles>
+						<File Id="41089161" Language="SFX">
+							<ShortName>jumps metal.wav</ShortName>
+							<Path>SFX\jumps metal_8680E8D2.wem</Path>
+						</File>
+						<File Id="191548506" Language="SFX">
+							<ShortName>jumps metal.wav</ShortName>
+							<Path>SFX\jumps metal_F099ED53.wem</Path>
+						</File>
+						<File Id="323173112" Language="SFX">
+							<ShortName>jumps metal.wav</ShortName>
+							<Path>SFX\jumps metal_43211D46.wem</Path>
+						</File>
+						<File Id="906270104" Language="SFX">
+							<ShortName>jump gravel1.wav</ShortName>
+							<Path>SFX\jump gravel1_10C4C929.wem</Path>
+						</File>
+						<File Id="955595068" Language="SFX">
+							<ShortName>jump gravel2.wav</ShortName>
+							<Path>SFX\jump gravel2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{352FAFD2-0A33-40F5-A4D5-3BE3729FE035}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{71BD5DE2-591C-4D6B-A6C1-2418547DB150}">
+							<Media>
+								<File Id="41089161"/>
+								<File Id="191548506"/>
+								<File Id="323173112"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{352FAFD2-0A33-40F5-A4D5-3BE3729FE035}">
+							<Media>
+								<File Id="906270104"/>
+								<File Id="955595068"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2571699421" Name="magnit_on" ObjectPath="\Events\Default Work Unit\magnit_on" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="104771696" Language="SFX">
+							<ShortName>magnit on.wav</ShortName>
+							<Path>SFX\magnit on_0CB9C234.wem</Path>
+						</File>
+						<File Id="134482035" Language="SFX">
+							<ShortName>magnit loop.wav</ShortName>
+							<Path>SFX\magnit loop_EF2F6E5A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="211816482" Name="magnit_stop" ObjectPath="\Events\Default Work Unit\magnit_stop" DurationType="OneShot" DurationMin="1.727962" DurationMax="1.727962">
+					<IncludedMemoryFiles>
+						<File Id="871483668" Language="SFX">
+							<ShortName>magnit off.wav</ShortName>
+							<Path>SFX\magnit off_D9E31CD9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2339992321" Name="metal_can" ObjectPath="\Events\Default Work Unit\metal_can" DurationType="OneShot" DurationMin="0.256476" DurationMax="0.569360">
+					<IncludedMemoryFiles>
+						<File Id="260747108" Language="SFX">
+							<ShortName>Metal can.wav</ShortName>
+							<Path>SFX\Metal can_C52A319D.wem</Path>
+						</File>
+						<File Id="406045514" Language="SFX">
+							<ShortName>Metal can.wav</ShortName>
+							<Path>SFX\Metal can_0FE4A64E.wem</Path>
+						</File>
+						<File Id="744859930" Language="SFX">
+							<ShortName>Metal can.wav</ShortName>
+							<Path>SFX\Metal can_C30C948F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="4050929301" Name="materials" ObjectPath="\Switches\Default Work Unit\materials">
+					<Switches>
+						<Switch Id="2185786256" Name="gravel" ObjectPath="\Switches\Default Work Unit\materials\gravel"/>
+						<Switch Id="2473969246" Name="metal" ObjectPath="\Switches\Default Work Unit\materials\metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

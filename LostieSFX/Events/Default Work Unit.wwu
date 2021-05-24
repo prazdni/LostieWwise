@@ -36,60 +36,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}">
-					<ChildrenList>
-						<Action Name="" ID="{CBAF4583-9316-4B5A-AB7C-9CF7D95BF4F1}" ShortID="143505390">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="magnit on" ID="{29F6AEEA-5B85-4C62-9C31-9EA655005C78}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{08D0C509-503E-4CC0-AE97-1728C99BB770}" ShortID="966916064">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}">
-					<ChildrenList>
-						<Action Name="" ID="{4D8C1774-E32A-490B-9DE8-167F4438A4A5}" ShortID="838091342">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{FCA53A5B-C3C4-4E4C-A717-75DBBC774102}" ShortID="310685267">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="magnit off" ID="{F44F001D-8033-4A90-809D-ADEFE544BEE7}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="object_machine" ID="{26EEA454-5760-478C-8623-7F580AD2A1F6}">
-					<ChildrenList>
-						<Action Name="" ID="{E174E43A-2873-4B79-A534-65F14250CD41}" ShortID="802751606">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="object1 loop" ID="{485A45C3-3077-4205-9375-30105D0AA8E0}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="metal_can" ID="{1D6FC76A-9D79-4F20-BC9D-5B8710ED0C96}">
 					<ChildrenList>
 						<Action Name="" ID="{DB8B8ADF-ADE2-4599-B3A1-4F4800348A64}" ShortID="722683538">
@@ -101,6 +47,195 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="box" ID="{5B3449BF-1109-4446-BBDD-312130479BF6}" ShortID="356214854">
+					<ChildrenList>
+						<Event Name="movement_box_start" ID="{CF6602B3-CEF5-47CC-9B75-371F210B33AF}">
+							<ChildrenList>
+								<Action Name="" ID="{FDC8B77C-3D1B-4B24-B559-3A72F5141272}" ShortID="964848136">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="movement_box_loop" ID="{95C10CDB-ADF8-4F39-9E60-29CE7F405532}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="movement_box_end" ID="{DDA92D50-E8BB-4410-91E4-F2C8B4AC7683}">
+							<ChildrenList>
+								<Action Name="" ID="{18B087ED-86D5-4BA5-95AE-02AAD4F9B34E}" ShortID="948222995">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.14"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="movement_box_loop" ID="{95C10CDB-ADF8-4F39-9E60-29CE7F405532}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="lamp" ID="{1D421D71-BF81-47FC-BAE9-D29CA82F2528}" ShortID="681529016">
+					<ChildrenList>
+						<Event Name="lamp_off" ID="{37835908-66D2-426C-A592-6708B9762227}">
+							<ChildrenList>
+								<Action Name="" ID="{1E971528-DEB4-4C1B-BDB6-85682D139094}" ShortID="683983211">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lamp off" ID="{825C8696-E422-4503-AAEF-A6452A8276DB}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="lamp_on" ID="{E4CEC9FF-331B-4DA6-A68D-1580C8BCC996}">
+							<ChildrenList>
+								<Action Name="" ID="{239D8C73-E8F4-4242-8292-554B3A21A23F}" ShortID="565992350">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lamp on" ID="{6A2308E8-BF98-4A2C-880C-C1FF50FF722F}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="lamp_regulator" ID="{B259B280-58DC-4594-8680-734225222F50}">
+							<ChildrenList>
+								<Action Name="" ID="{36941856-78E0-42CD-AB57-9815C7106D99}" ShortID="210689587">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="lamp regulator" ID="{FD7F3C84-526B-44DD-8D23-79FCCDA06E13}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="magnit" ID="{5E86163E-6596-4A47-A49D-192C4C4FA78D}" ShortID="250235019">
+					<ChildrenList>
+						<Event Name="magnit_stop" ID="{B7CF5B05-2257-48E6-818B-047896CAAED7}">
+							<ChildrenList>
+								<Action Name="" ID="{4D8C1774-E32A-490B-9DE8-167F4438A4A5}" ShortID="838091342">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FCA53A5B-C3C4-4E4C-A717-75DBBC774102}" ShortID="310685267">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="magnit off" ID="{F44F001D-8033-4A90-809D-ADEFE544BEE7}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="magnit_on" ID="{B67F67A4-748E-4582-82DF-3A92866E26B3}">
+							<ChildrenList>
+								<Action Name="" ID="{CBAF4583-9316-4B5A-AB7C-9CF7D95BF4F1}" ShortID="143505390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="magnit on" ID="{29F6AEEA-5B85-4C62-9C31-9EA655005C78}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{08D0C509-503E-4CC0-AE97-1728C99BB770}" ShortID="966916064">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="magnit loop" ID="{3EC50FE4-2B45-40E7-9CA2-3F21815D560D}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="obj1" ID="{9B16FA7A-9779-4806-B3C8-AED485C08AEA}" ShortID="672306381">
+					<ChildrenList>
+						<Event Name="porsh1up" ID="{ED6E4AE1-5451-4D59-91EA-C04A9EF3A1DD}">
+							<ChildrenList>
+								<Action Name="" ID="{1FEB5362-1418-4149-998C-0D4D41DDF883}" ShortID="522340807">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh1up" ID="{5F5F0271-CB92-46E0-A908-10BB012D271F}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="porsh1down" ID="{DDE82154-D61A-48A7-93D4-FE8543F3D178}">
+							<ChildrenList>
+								<Action Name="" ID="{6AE5305A-6F95-4A0B-8BB7-2AD34757BBB2}" ShortID="273771866">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh1down" ID="{D7CC9AC6-ECE9-45A5-81A9-B069ADF67161}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="porsh2down" ID="{4CD9B7F2-1F22-4911-9DF5-96F5C9C067AF}">
+							<ChildrenList>
+								<Action Name="" ID="{555ACC50-6EFC-47F4-ACBA-B887F82DBCEA}" ShortID="566435765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh2down" ID="{DC22DC16-060C-41D2-89B9-C243AA3D5EB2}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="porsh2up" ID="{AE88E1D7-F208-47D4-A637-8C369AB36B12}">
+							<ChildrenList>
+								<Action Name="" ID="{DAC54BB0-A95C-487D-8F9C-43B2FC19799D}" ShortID="915597390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh2up" ID="{41734E09-AD85-4E57-9F9C-6238F7485FF8}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="porsh3up" ID="{2F350695-425D-4AB7-856F-446108DB688B}">
+							<ChildrenList>
+								<Action Name="" ID="{F43EC726-F689-4615-A839-B6B2128BA1E3}" ShortID="24987049">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh3up" ID="{EA5A97BD-F71B-4A07-905C-8537D8CB3C5A}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="porsh3down" ID="{1B713FC9-E2BC-43FE-8DA7-B1133628EC77}">
+							<ChildrenList>
+								<Action Name="" ID="{A02609E6-F91A-4976-B7B2-57E8A2A054EA}" ShortID="711634765">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="porsh3down" ID="{46DBAC99-59CD-477B-91B5-70BD89FBA7ED}" WorkUnitID="{9BBB7AF5-1944-4C82-91AC-891E664B9F13}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
