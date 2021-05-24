@@ -23,6 +23,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	994252757	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\silence_01\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+<<<<<<< Updated upstream
 	2432733	footsteps metal_04	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_14899C94.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_04		120960
 	41089161	jumps metal_01	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\jumps metal_8680E8D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\metal\jumps metal_01		177508
 	104771696	magnit on	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\magnit on_0CB9C234.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\magnit\magnit on\magnit on		432796
@@ -66,4 +67,49 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1033875272	footsteps gravel_06	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_E8CF20A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_06		83872
 	1041257074	footsteps metal	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_D1889335.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal		116480
 	1063923055	amb_solo3	A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_solo3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\solo\solo+\amb_solo3		4233728
+=======
+	2432733	footsteps metal_04	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_14899C94.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_04		120960
+	41089161	jumps metal_01	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\jumps metal_8680E8D2.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\metal\jumps metal_01		177508
+	104771696	magnit on	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\magnit on_0CB9C234.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\magnit\magnit on\magnit on		432796
+	107575969	amb_mid2	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_mid2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\amb_mid2		4657088
+	134482035	magnit loop	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\magnit loop_EF2F6E5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\magnit\magnit on\magnit loop		697592
+	142086058	_amb_noise_01	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\_amb_noise_0EA5A4CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\noise\_amb_noise_01		637164
+	162933036	footsteps gravel_01	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_D6CB1261.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_01		64748
+	191548506	jumps metal_02	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\jumps metal_F099ED53.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\metal\jumps metal_02		251872
+	203140569	melody2	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\melody2_18A6BA60.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\melody\melody2		7620608
+	206289193	_amb_noise_02	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\_amb_noise_382E2FD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\noise\_amb_noise_02		603828
+	255627295	amb_solo1	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_solo1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\solo\amb_solo1		4233728
+	260747108	Metal can_01	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\Metal can_C52A319D.wem		\Actor-Mixer Hierarchy\Default Work Unit\objects\interactive\metal can1\Metal can_01		91500
+	308848133	footsteps metal_01	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_4981F7FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_01		107524
+	323173112	jumps metal	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\jumps metal_43211D46.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\metal\jumps metal		153208
+	353077756	amb_intensity2	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_intensity2_F6876E85.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\amb_intensity2		4233728
+	402224525	footsteps gravel_08	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_CE21C004.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_08		84184
+	406045514	Metal can	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\Metal can_0FE4A64E.wem		\Actor-Mixer Hierarchy\Default Work Unit\objects\interactive\metal can1\Metal can		107504
+	459565234	amb_solo2	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_solo2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\solo\solo+\amb_solo2		4233728
+	514120136	footsteps metal_03	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_C485D7FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_03		83648
+	518025997	footsteps metal_05	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_4B796190.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_05		67228
+	525016094	footsteps gravel_07	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_39A9CA00.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_07		71240
+	558581364	footsteps gravel_04	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_F04CCDC1.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_04		82948
+	558815861	footsteps metal_02	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_F2B43F78.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal_02		91108
+	561036586	footsteps gravel_02	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_E74F1922.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_02		85684
+	588744884	footsteps gravel_03	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_3F49BC4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_03		68316
+	596014821	_amb_noise_04	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\_amb_noise_F3EE9637.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\noise\_amb_noise_04		648276
+	608905666	amb_mid1	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_mid1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\amb_mid1		4233728
+	677692244	melody1	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\melody1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\melody\melody1		7620608
+	680304996	melody4	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\melody4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\melody\melody4		8043968
+	694612187	_amb_noise_03	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\_amb_noise_242452B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\noise\_amb_noise_03		596420
+	705098902	_amb_noise	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\_amb_noise_9D3D1610.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\noise\_amb_noise		774216
+	744859930	Metal can_02	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\Metal can_C30C948F.wem		\Actor-Mixer Hierarchy\Default Work Unit\objects\interactive\metal can1\Metal can_02		49592
+	750514031	amb_intensity3	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_intensity3_06039F1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\amb_intensity3		5927168
+	755079647	footsteps gravel_05	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_59400C30.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_05		69092
+	871483668	magnit off	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\magnit off_D9E31CD9.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\magnit\magnit off		304876
+	906270104	jump gravel1	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\jump gravel1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\gravel\jump gravel1		128724
+	955595068	jump gravel2	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\jump gravel2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\jumps\gravel\jump gravel2		151164
+	992048043	footsteps gravel	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_CC437609.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel		72496
+	997456459	amb_intensity1	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_intensity1_B56745C6.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\amb_intensity1		4233728
+	1012891873	melody3	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\melody3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\melody\melody3		7620608
+	1033875272	footsteps gravel_06	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps gravel_E8CF20A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\gravel\footsteps gravel_06		83872
+	1041257074	footsteps metal	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\footsteps metal_D1889335.wem		\Actor-Mixer Hierarchy\Default Work Unit\main character\footsteps\metal\footsteps metal		116480
+	1063923055	amb_solo3	D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\SFX\amb_solo3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\amb\solo\solo+\amb_solo3		4233728
+>>>>>>> Stashed changes
 

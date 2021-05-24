@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
+<<<<<<< Updated upstream
 		<ProjectRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\</ProjectRoot>
 		<SourceFilesRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>A:\GamesWork\Lostie\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+=======
+		<ProjectRoot>D:\WwiseProj\LostieWwise\LostieSFX\</ProjectRoot>
+		<SourceFilesRoot>D:\WwiseProj\LostieWwise\LostieSFX\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\WwiseProj\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\WwiseProj\LostieWwise\LostieSFX\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+>>>>>>> Stashed changes
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +24,11 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="3161908922" Language="SFX" Hash="2626267495">
+=======
+		<SoundBank Id="3161908922" Language="SFX" Hash="2473975471">
+>>>>>>> Stashed changes
 			<ObjectPath>\SoundBanks\Default Work Unit\main</ObjectPath>
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
