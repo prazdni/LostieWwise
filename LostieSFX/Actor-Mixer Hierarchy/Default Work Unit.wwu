@@ -2590,31 +2590,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Folder Name="obj1" ID="{40FEC03E-3763-46F8-892A-EDA68B64E8B4}" ShortID="2874104">
+								<ActorMixer Name="object1" ID="{A7B76B99-FCCA-499C-AB20-7C4ACB1ADA58}" ShortID="977844804">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="att1" ID="{DA28F535-D5D3-49EC-9066-171D46FC1CC2}" WorkUnitID="{4E770082-3EDE-49E1-BA8F-53D271FD13E7}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="porsh1down" ID="{D7CC9AC6-ECE9-45A5-81A9-B069ADF67161}" ShortID="801702930">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}">
-													<Language>SFX</Language>
-													<AudioFile>porsh1down.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1072568451"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="porsh1up" ID="{5F5F0271-CB92-46E0-A908-10BB012D271F}" ShortID="185308339">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2636,29 +2628,6 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="porsh1up" ID="{5ACB6095-93CC-4E90-939E-DABCDD15A9DB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="porsh2down" ID="{DC22DC16-060C-41D2-89B9-C243AA3D5EB2}" ShortID="140884033">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}">
-													<Language>SFX</Language>
-													<AudioFile>porsh2down.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="50278205"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="porsh2up" ID="{41734E09-AD85-4E57-9F9C-6238F7485FF8}" ShortID="21543876">
@@ -2684,7 +2653,7 @@
 												<ActiveSource Name="porsh2up" ID="{D0C727E2-8EFB-4BE3-A7DD-735073B2C899}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="porsh3down" ID="{46DBAC99-59CD-477B-91B5-70BD89FBA7ED}" ShortID="836693768">
+										<Sound Name="porsh2down" ID="{DC22DC16-060C-41D2-89B9-C243AA3D5EB2}" ShortID="140884033">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
@@ -2694,17 +2663,17 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}">
+												<AudioFileSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}">
 													<Language>SFX</Language>
-													<AudioFile>porsh3down.wav</AudioFile>
+													<AudioFile>porsh2down.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="344845112"/>
+														<MediaID ID="50278205"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ObjectLists/>
 											<ActiveSourceList>
-												<ActiveSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}" Platform="Linked"/>
+												<ActiveSource Name="porsh2down" ID="{A5C58AF7-9E9D-4478-8E5F-F1C1360C98E3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="porsh3up" ID="{EA5A97BD-F71B-4A07-905C-8537D8CB3C5A}" ShortID="254747750">
@@ -2730,8 +2699,55 @@
 												<ActiveSource Name="porsh3up" ID="{D2079BAB-06BE-4B6B-8165-727CB314BE62}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="porsh1down" ID="{D7CC9AC6-ECE9-45A5-81A9-B069ADF67161}" ShortID="801702930">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}">
+													<Language>SFX</Language>
+													<AudioFile>porsh1down.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1072568451"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh1down" ID="{1AF88BAE-B9E0-4788-BF2E-2F7EBF8394AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="porsh3down" ID="{46DBAC99-59CD-477B-91B5-70BD89FBA7ED}" ShortID="836693768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B9CC7B41-89B7-4085-ABAA-1708413F6616}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFC7DBC5-EFF5-421C-995C-A2AE6BB47A4C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}">
+													<Language>SFX</Language>
+													<AudioFile>porsh3down.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344845112"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="porsh3down" ID="{7C553ED7-A33B-4F17-9394-DDE147E6A456}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-								</Folder>
+									<ObjectLists/>
+								</ActorMixer>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
